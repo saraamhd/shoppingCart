@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="task 3 from Elzero Web School">
+    <!--=============== BootsTrap ===============-->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--=============== Animate ===============-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Bag</title>
+</head>
+
+<body>
+    <header class="header sticky-top py-3">
+        <div class="container">
+            <div class="header-content d-flex flex-column justify-content-between align-items-center flex-md-row">
+                <a href="index.html" class="logo d-flex align-items-end">
+                    <img src="assets/img/shopping-bag.png" alt="shopping-bag">
+                    <span>Smart</span>
+                </a>
+                <div class="right d-flex align-items-end">
+                    <form class="search-form d-flex align-items-end">
+                        <input type="search" placeholder="Search..." id="">
+                        <div class="search-icon">
+                            <input type="submit" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="py-5 shopping-main">
+        <div class="container">
+            <div class="main-content py-3">
+                <h2>shopping bag</h2>
+                <div class="row">
+                    <div class="col-md-7 col-lg-8 mb-4 mb-md-0">
+                        <div class="col-content">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>product</th>
+                                        <th>category</th>
+                                        <th>count</th>
+                                        <th>price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 d-flex flex-column">
+                        <div class="total d-flex flex-column">
+                            <div class="info d-flex justify-content-between align-items-center">
+                                <span>total</span>
+                                <span class="total-price">$0</span>
+                            </div>
+                            <button class="btn checkout">
+                                checkout
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer-down p-3 d-flex justify-content-center align-items-center">
+            <p class="">Made With &#x1F49C; By <span>Sarah Mohamed</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="assets/js/cssanimation-gsap.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
